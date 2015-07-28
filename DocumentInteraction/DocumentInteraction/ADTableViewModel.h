@@ -10,6 +10,11 @@
 @import UIKit;
 @import QuickLook;
 
+/**
+ The view model's purpose is to encapsulate all code which is not seen by the
+ user. In this particular instance, the view model is responsible for setting up
+ the table view datasource as well as the QuickLook data source.
+ */
 @interface ADTableViewModel : NSObject<UITableViewDataSource, QLPreviewControllerDataSource>
 
 - (NSArray *)arrayFromPropertyList:(NSString *)propertyListName;

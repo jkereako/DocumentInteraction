@@ -2,10 +2,10 @@
 Demonstrates how to present documents within an app using the [QuickLook][ql]
 framework.
 
-This is a simpler version of Apple's [DocInteraction][doc] sample application.
-Simpler in that it only contains code which is necessary for displaying content
-using QuickLook. Apple's sample app has extraneous code, some of which is
-written in C.
+This project is based off of Apple's [DocInteraction][doc] sample application.
+DocInteraction contains extraneous and needless code where as this project
+contains only the code required to use QuickLook. This project is a better
+starting point for understanding QuickLook.
 
 # Installation
 Clone this repository and open the project file in Xcode. Run the app in the

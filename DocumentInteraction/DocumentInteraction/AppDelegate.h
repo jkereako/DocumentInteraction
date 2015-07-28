@@ -8,6 +8,10 @@
 
 @import UIKit;
 
+/**
+ This class is unused in this application, however, its presence is required for
+ every iOS app.
+ */
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
