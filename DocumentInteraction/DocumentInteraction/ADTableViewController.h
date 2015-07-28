@@ -9,7 +9,7 @@
 @import UIKit;
 @import QuickLook;
 
-@interface MasterViewController : UITableViewController <QLPreviewControllerDataSource, QLPreviewControllerDelegate, UIDocumentInteractionControllerDelegate>
+@interface ADTableViewController : UITableViewController <UITableViewDelegate, QLPreviewControllerDelegate>
 
 @end
 
