@@ -17,12 +17,12 @@
 
 @implementation ADTableViewController
 
-#pragma mark - UITableViewD
+#pragma mark - Table view delegate
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
   [tableView deselectRowAtIndexPath:indexPath animated:YES];
 
-  // Create a new QuickLook controller and push it on to the navigation
-  // controller.
+  // Create a new QuickLook controller and push it on to the view controller
+  // stack.
   QLPreviewController *previewController = [QLPreviewController new];
   previewController.dataSource = self.viewModel;
   previewController.delegate = self;

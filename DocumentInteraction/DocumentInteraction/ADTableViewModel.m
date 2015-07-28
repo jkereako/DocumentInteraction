@@ -19,14 +19,13 @@
 @implementation ADTableViewModel
 
 #pragma mark - View controller lifecycle
-
 - (void)awakeFromNib {
   [super awakeFromNib];
 
   self.dataSource = [self arrayFromPropertyList:@"DocumentURLs"];
 }
 
-#pragma mark - UITableViewDataSource
+#pragma mark - Table view data source
 - (NSInteger)numberOfSectionsInTableView:(UITableView * __unused)tableView {
   return 1;
 }
@@ -45,14 +44,12 @@
   return cell;
 }
 
-#pragma mark - QLPreviewControllerDataSource
+#pragma mark - QuickLook data source
 
-// Returns the number of items that the preview controller should preview
 - (NSInteger)numberOfPreviewItemsInPreviewController:(QLPreviewController * __unused)previewController {
   return (NSInteger)self.dataSource.count;
 }
 
-// returns the item that the preview controller should preview
 - (id<QLPreviewItem>)previewController:(QLPreviewController * __unused)previewController previewItemAtIndex:(NSInteger)idx {
   NSURL *fileURL;
   NSString *fileName;
@@ -74,6 +71,12 @@
       fileURL = [self.dataSource objectAtIndex:(NSUInteger)idx];
   }
 
+  // You'll notice we return an instance of NSURL although the return type is
+  // declared as an object which conforms to the QLPreviewItem protocol. It
+  // turns out that NSURL objects are also acceptable.
+  //
+  // From Apple's documentation: The item must be an NSURL object, or a custom
+  // object that conforms to the QLPreviewItem protocol.
   return fileURL;
 }
 
