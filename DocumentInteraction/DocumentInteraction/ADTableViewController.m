@@ -41,7 +41,7 @@
 }
 
 // returns the item that the preview controller should preview
-- (id)previewController:(QLPreviewController * __unused)previewController previewItemAtIndex:(NSInteger)idx {
+- (id<QLPreviewItem>)previewController:(QLPreviewController * __unused)previewController previewItemAtIndex:(NSInteger)idx {
   NSURL *fileURL;
   NSString *fileName;
 
