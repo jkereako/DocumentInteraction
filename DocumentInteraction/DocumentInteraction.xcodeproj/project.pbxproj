@@ -19,6 +19,7 @@
 		362C70D01B66A5D700AC8713 /* DocumentURLs.plist in Resources */ = {isa = PBXBuildFile; fileRef = 362C70CF1B66A5D700AC8713 /* DocumentURLs.plist */; };
 		362C70D11B66A5D700AC8713 /* DocumentURLs.plist in Resources */ = {isa = PBXBuildFile; fileRef = 362C70CF1B66A5D700AC8713 /* DocumentURLs.plist */; };
 		3689E3191B67F06200F01F04 /* ADTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 362C70A91B669CE800AC8713 /* ADTableViewController.m */; };
+		3689E31B1B67F7FF00F01F04 /* f1040.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 3689E31A1B67F7FF00F01F04 /* f1040.pdf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +51,7 @@
 		362C70CB1B669EAD00AC8713 /* html.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = html.html; sourceTree = "<group>"; };
 		362C70CC1B669EAD00AC8713 /* text.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = text.txt; sourceTree = "<group>"; };
 		362C70CF1B66A5D700AC8713 /* DocumentURLs.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = DocumentURLs.plist; sourceTree = "<group>"; };
+		3689E31A1B67F7FF00F01F04 /* f1040.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = f1040.pdf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,6 +140,7 @@
 		362C70CA1B669EAD00AC8713 /* documents */ = {
 			isa = PBXGroup;
 			children = (
+				3689E31A1B67F7FF00F01F04 /* f1040.pdf */,
 				362C70CB1B669EAD00AC8713 /* html.html */,
 				362C70CC1B669EAD00AC8713 /* text.txt */,
 			);
@@ -227,6 +230,7 @@
 			files = (
 				362C70B01B669CE800AC8713 /* Main.storyboard in Resources */,
 				362C70CD1B669EAD00AC8713 /* html.html in Resources */,
+				3689E31B1B67F7FF00F01F04 /* f1040.pdf in Resources */,
 				362C70B51B669CE800AC8713 /* LaunchScreen.xib in Resources */,
 				362C70D01B66A5D700AC8713 /* DocumentURLs.plist in Resources */,
 				362C70B21B669CE800AC8713 /* Images.xcassets in Resources */,

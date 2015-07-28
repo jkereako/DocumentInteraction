@@ -10,5 +10,9 @@
 		<key>Text</key>
 		<string>text.txt</string>
 	</dict>
+	<dict>
+		<key>PDF</key>
+		<string>f1040.pdf</string>
+	</dict>
 </array>
 </plist>
