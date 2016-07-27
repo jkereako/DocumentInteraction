@@ -244,8 +244,6 @@
 			</array>
 			<key>isa</key>
 			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Source</string>
 			<key>path</key>
 			<string>Source</string>
 			<key>sourceTree</key>
@@ -260,8 +258,6 @@
 			</array>
 			<key>isa</key>
 			<string>PBXGroup</string>
-			<key>name</key>
-			<string>SupportFiles</string>
 			<key>path</key>
 			<string>SupportFiles</string>
 			<key>sourceTree</key>
@@ -388,8 +384,6 @@
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
 			<string>folder.assetcatalog</string>
-			<key>name</key>
-			<string>Images.xcassets</string>
 			<key>path</key>
 			<string>Images.xcassets</string>
 			<key>sourceTree</key>
@@ -545,8 +539,6 @@
 			</array>
 			<key>isa</key>
 			<string>PBXGroup</string>
-			<key>name</key>
-			<string>UnitTests</string>
 			<key>path</key>
 			<string>UnitTests</string>
 			<key>sourceTree</key>
@@ -561,9 +553,9 @@
 			<key>isa</key>
 			<string>PBXGroup</string>
 			<key>name</key>
-			<string>Supporting Files</string>
+			<string>SupportFiles</string>
 			<key>path</key>
-			<string>Supporting Files</string>
+			<string>SupportFiles</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -950,7 +942,7 @@
 					<string>$(inherited)</string>
 				</array>
 				<key>INFOPLIST_FILE</key>
-				<string>Tests/UnitTests/Supporting Files/Info.plist</string>
+				<string>Tests/UnitTests/SupportFiles/Info.plist</string>
 				<key>LD_RUNPATH_SEARCH_PATHS</key>
 				<string>$(inherited) @executable_path/Frameworks @loader_path/Frameworks</string>
 				<key>PRODUCT_NAME</key>
@@ -975,7 +967,7 @@
 					<string>$(inherited)</string>
 				</array>
 				<key>INFOPLIST_FILE</key>
-				<string>Tests/UnitTests/Supporting Files/Info.plist</string>
+				<string>Tests/UnitTests/SupportFiles/Info.plist</string>
 				<key>LD_RUNPATH_SEARCH_PATHS</key>
 				<string>$(inherited) @executable_path/Frameworks @loader_path/Frameworks</string>
 				<key>PRODUCT_NAME</key>
@@ -998,8 +990,6 @@
 			</array>
 			<key>isa</key>
 			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Documents</string>
 			<key>path</key>
 			<string>Documents</string>
 			<key>sourceTree</key>
@@ -1053,8 +1043,6 @@
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
 			<string>text.plist.xml</string>
-			<key>name</key>
-			<string>DocumentURLs.plist</string>
 			<key>path</key>
 			<string>DocumentURLs.plist</string>
 			<key>sourceTree</key>
@@ -1107,8 +1095,6 @@
 			</array>
 			<key>isa</key>
 			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Tests</string>
 			<key>path</key>
 			<string>Tests</string>
 			<key>sourceTree</key>
@@ -1126,8 +1112,6 @@
 			</array>
 			<key>isa</key>
 			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Resources</string>
 			<key>path</key>
 			<string>Resources</string>
 			<key>sourceTree</key>
