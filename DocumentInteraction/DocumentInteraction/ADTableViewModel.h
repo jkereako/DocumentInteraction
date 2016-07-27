@@ -15,7 +15,7 @@
  user. In this particular instance, the view model is responsible for setting up
  the table view datasource as well as the QuickLook data source.
  */
-@interface ADTableViewModel : NSObject<UITableViewDataSource, QLPreviewControllerDataSource>
+@interface ADTableViewModel: NSObject<UITableViewDataSource, QLPreviewControllerDataSource>
 
 - (NSArray *)arrayFromPropertyList:(NSString *)propertyListName;
 

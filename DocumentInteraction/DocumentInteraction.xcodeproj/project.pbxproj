@@ -43,14 +43,14 @@
 		362C70A81B669CE800AC8713 /* ADTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ADTableViewController.h; sourceTree = "<group>"; };
 		362C70A91B669CE800AC8713 /* ADTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ADTableViewController.m; sourceTree = "<group>"; };
 		362C70AF1B669CE800AC8713 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		362C70B11B669CE800AC8713 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		362C70B11B669CE800AC8713 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = DocumentInteraction/Images.xcassets; sourceTree = "<group>"; };
 		362C70B41B669CE800AC8713 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		362C70BA1B669CE800AC8713 /* DocumentInteractionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DocumentInteractionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		362C70BF1B669CE800AC8713 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		362C70C01B669CE800AC8713 /* DocumentInteractionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DocumentInteractionTests.m; sourceTree = "<group>"; };
 		362C70CB1B669EAD00AC8713 /* html.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = html.html; sourceTree = "<group>"; };
 		362C70CC1B669EAD00AC8713 /* text.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = text.txt; sourceTree = "<group>"; };
-		362C70CF1B66A5D700AC8713 /* DocumentURLs.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = DocumentURLs.plist; sourceTree = "<group>"; };
+		362C70CF1B66A5D700AC8713 /* DocumentURLs.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = DocumentURLs.plist; path = DocumentInteraction/DocumentURLs.plist; sourceTree = "<group>"; };
 		3689E31A1B67F7FF00F01F04 /* f1040.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = f1040.pdf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -75,8 +75,9 @@
 		362C70951B669CE800AC8713 = {
 			isa = PBXGroup;
 			children = (
-				362C70A01B669CE800AC8713 /* DocumentInteraction */,
-				362C70BD1B669CE800AC8713 /* DocumentInteractionTests */,
+				62312BD01D483BF3008F1D6A /* Resources */,
+				62312BCF1D483BE5008F1D6A /* Tests */,
+				362C70A01B669CE800AC8713 /* Source */,
 				362C709F1B669CE800AC8713 /* Products */,
 			);
 			indentWidth = 2;
@@ -92,40 +93,37 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		362C70A01B669CE800AC8713 /* DocumentInteraction */ = {
+		362C70A01B669CE800AC8713 /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				362C70CA1B669EAD00AC8713 /* documents */,
 				362C70A51B669CE800AC8713 /* AppDelegate.h */,
 				362C70A61B669CE800AC8713 /* AppDelegate.m */,
 				362C70A81B669CE800AC8713 /* ADTableViewController.h */,
 				362C70A91B669CE800AC8713 /* ADTableViewController.m */,
 				3624906C1B67EF5800554C2D /* ADTableViewModel.h */,
 				3624906D1B67EF5800554C2D /* ADTableViewModel.m */,
-				362C70AE1B669CE800AC8713 /* Main.storyboard */,
-				362C70B11B669CE800AC8713 /* Images.xcassets */,
-				362C70B31B669CE800AC8713 /* LaunchScreen.xib */,
-				362C70A11B669CE800AC8713 /* Supporting Files */,
-				362C70CF1B66A5D700AC8713 /* DocumentURLs.plist */,
+				362C70A11B669CE800AC8713 /* SupportFiles */,
 			);
+			name = Source;
 			path = DocumentInteraction;
 			sourceTree = "<group>";
 		};
-		362C70A11B669CE800AC8713 /* Supporting Files */ = {
+		362C70A11B669CE800AC8713 /* SupportFiles */ = {
 			isa = PBXGroup;
 			children = (
 				362C70A21B669CE800AC8713 /* Info.plist */,
 				362C70A31B669CE800AC8713 /* main.m */,
 			);
-			name = "Supporting Files";
+			name = SupportFiles;
 			sourceTree = "<group>";
 		};
-		362C70BD1B669CE800AC8713 /* DocumentInteractionTests */ = {
+		362C70BD1B669CE800AC8713 /* UnitTests */ = {
 			isa = PBXGroup;
 			children = (
 				362C70C01B669CE800AC8713 /* DocumentInteractionTests.m */,
 				362C70BE1B669CE800AC8713 /* Supporting Files */,
 			);
+			name = UnitTests;
 			path = DocumentInteractionTests;
 			sourceTree = "<group>";
 		};
@@ -137,14 +135,35 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		362C70CA1B669EAD00AC8713 /* documents */ = {
+		362C70CA1B669EAD00AC8713 /* Documents */ = {
 			isa = PBXGroup;
 			children = (
 				3689E31A1B67F7FF00F01F04 /* f1040.pdf */,
 				362C70CB1B669EAD00AC8713 /* html.html */,
 				362C70CC1B669EAD00AC8713 /* text.txt */,
 			);
-			path = documents;
+			name = Documents;
+			path = DocumentInteraction/documents;
+			sourceTree = "<group>";
+		};
+		62312BCF1D483BE5008F1D6A /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				362C70BD1B669CE800AC8713 /* UnitTests */,
+			);
+			name = Tests;
+			sourceTree = "<group>";
+		};
+		62312BD01D483BF3008F1D6A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				362C70CF1B66A5D700AC8713 /* DocumentURLs.plist */,
+				362C70AE1B669CE800AC8713 /* Main.storyboard */,
+				362C70B11B669CE800AC8713 /* Images.xcassets */,
+				362C70B31B669CE800AC8713 /* LaunchScreen.xib */,
+				362C70CA1B669EAD00AC8713 /* Documents */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -285,6 +304,7 @@
 				362C70AF1B669CE800AC8713 /* Base */,
 			);
 			name = Main.storyboard;
+			path = DocumentInteraction;
 			sourceTree = "<group>";
 		};
 		362C70B31B669CE800AC8713 /* LaunchScreen.xib */ = {
@@ -293,6 +313,7 @@
 				362C70B41B669CE800AC8713 /* Base */,
 			);
 			name = LaunchScreen.xib;
+			path = DocumentInteraction;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
