@@ -28,8 +28,7 @@
   previewController.delegate = self;
   previewController.currentPreviewItemIndex = indexPath.row;
 
-  [self.navigationController pushViewController:previewController
-                                       animated:YES];
+  [self.navigationController pushViewController:previewController animated:YES];
 }
 
 @end

@@ -12,7 +12,7 @@
 /**
  The responsibility of this class is to handle actions initiated by the user.
  */
-@interface ADTableViewController : UITableViewController <UITableViewDelegate, QLPreviewControllerDelegate>
+@interface ADTableViewController: UITableViewController <UITableViewDelegate, QLPreviewControllerDelegate>
 
 @end
 
