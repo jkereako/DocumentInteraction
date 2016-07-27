@@ -2,9 +2,9 @@
 Demonstrates how to present documents within an app using the [QuickLook][ql]
 framework.
 
-<img src="https://raw.githubusercontent.com/jkereako/ios-document-interaction/master/screen-1.png" alt="Document list" width="320" height="568" />
+<img src="https://raw.githubusercontent.com/jkereako/DocumentInteraction/master/Images/screen-1.png" alt="Document list" width="320" height="568" />
 
-<img src="https://raw.githubusercontent.com/jkereako/ios-document-interaction/master/screen-2.png" alt="Document list" width="320" height="568" />
+<img src="https://raw.githubusercontent.com/jkereako/DocumentInteraction/master/Images/screen-2.png" alt="Document list" width="320" height="568" />
 
 This project is based off of Apple's [DocInteraction][doc] sample application.
 DocInteraction contains extraneous and needless code where as this project
