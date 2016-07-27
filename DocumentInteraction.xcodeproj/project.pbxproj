@@ -50,6 +50,7 @@
 				<string>362C709F1B669CE800AC8713</string>
 				<string>62312BD01D483BF3008F1D6A</string>
 				<string>362C70A01B669CE800AC8713</string>
+				<string>362C70A11B669CE800AC8713</string>
 				<string>62312BCF1D483BE5008F1D6A</string>
 			</array>
 			<key>indentWidth</key>
@@ -234,7 +235,6 @@
 		<dict>
 			<key>children</key>
 			<array>
-				<string>362C70A11B669CE800AC8713</string>
 				<string>362C70A81B669CE800AC8713</string>
 				<string>362C70A91B669CE800AC8713</string>
 				<string>3624906C1B67EF5800554C2D</string>
@@ -258,6 +258,8 @@
 			</array>
 			<key>isa</key>
 			<string>PBXGroup</string>
+			<key>name</key>
+			<string>SupportFiles</string>
 			<key>path</key>
 			<string>SupportFiles</string>
 			<key>sourceTree</key>
@@ -534,7 +536,6 @@
 		<dict>
 			<key>children</key>
 			<array>
-				<string>362C70BE1B669CE800AC8713</string>
 				<string>362C70C01B669CE800AC8713</string>
 			</array>
 			<key>isa</key>
@@ -820,7 +821,7 @@
 				<key>GCC_WARN_UNUSED_PARAMETER</key>
 				<string>YES</string>
 				<key>INFOPLIST_FILE</key>
-				<string>Source/SupportFiles/Info.plist</string>
+				<string>SupportFiles/Info.plist</string>
 				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
 				<string>8.4</string>
 				<key>LD_RUNPATH_SEARCH_PATHS</key>
@@ -898,7 +899,7 @@
 				<key>GCC_WARN_UNUSED_PARAMETER</key>
 				<string>YES</string>
 				<key>INFOPLIST_FILE</key>
-				<string>Source/SupportFiles/Info.plist</string>
+				<string>SupportFiles/Info.plist</string>
 				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
 				<string>8.4</string>
 				<key>LD_RUNPATH_SEARCH_PATHS</key>
@@ -942,7 +943,7 @@
 					<string>$(inherited)</string>
 				</array>
 				<key>INFOPLIST_FILE</key>
-				<string>Tests/UnitTests/SupportFiles/Info.plist</string>
+				<string>Tests/SupportFiles/Info.plist</string>
 				<key>LD_RUNPATH_SEARCH_PATHS</key>
 				<string>$(inherited) @executable_path/Frameworks @loader_path/Frameworks</string>
 				<key>PRODUCT_NAME</key>
@@ -967,7 +968,7 @@
 					<string>$(inherited)</string>
 				</array>
 				<key>INFOPLIST_FILE</key>
-				<string>Tests/UnitTests/SupportFiles/Info.plist</string>
+				<string>Tests/SupportFiles/Info.plist</string>
 				<key>LD_RUNPATH_SEARCH_PATHS</key>
 				<string>$(inherited) @executable_path/Frameworks @loader_path/Frameworks</string>
 				<key>PRODUCT_NAME</key>
@@ -1091,6 +1092,7 @@
 		<dict>
 			<key>children</key>
 			<array>
+				<string>362C70BE1B669CE800AC8713</string>
 				<string>362C70BD1B669CE800AC8713</string>
 			</array>
 			<key>isa</key>
